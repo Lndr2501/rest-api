@@ -83,3 +83,5 @@ async def update_item(item_id: int, item: Item):
 async def delete_item(item_id: int):
     items.pop(item_id)
     return {"message": "Item deleted"}
+
+app.run()
