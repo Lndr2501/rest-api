@@ -5,7 +5,7 @@ from enum import Enum
 from jose import jwt
 from typing import Optional
 
-items = [
+items = [ # mit database?
     {"name": "Coffee", "price": 2, "typ": "drink"},
     {"name": "Coca Cola", "price": 3, "typ": "drink"},
     {"name": "Minecraft", "price": 25, "typ": "game"}
